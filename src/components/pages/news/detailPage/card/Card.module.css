@@ -1,0 +1,41 @@
+#cards {
+  padding: 50px 0;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-bottom: 52px;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 355px;
+  background: #121b24;
+  margin-bottom: 12px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  text-align: center;
+  padding: 7px 0 15px 0;
+  font-weight: 500;
+  font-size: 19 px;
+  color: #d9d9d9;
+}
+
+.data {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}

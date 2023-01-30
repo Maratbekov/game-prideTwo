@@ -1,0 +1,61 @@
+#benefits {
+  padding: 100px 0;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  width: 30%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.number {
+  position: absolute;
+  top: 23px;
+  right: 63px;
+
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.title {
+  position: absolute;
+  top: 70px;
+  left: 85px;
+  width: 208px;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.desc {
+  position: absolute;
+  bottom: 86px;
+  left: 76px;
+  width: 232px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #b5b0b0;
+}
